@@ -4,23 +4,37 @@ Battleship is a Python terminal game which runs in the Code Institute mock termi
 
 Users can play against the computer, trying to find all the computer´s battleships before the computer finds the user´s battleships. Each battleship occupies one square on the game board.
 
-Here is the live version of my project.
+Here is the live version of my project:
+
+https://battleship72.herokuapp.com/
 
 ### How to play
 
-Battleship is based on the classic pen-and-paper game. Here is more info about it in Wikipedia.
+Battleship is based on the classic pen-and-paper game. Here is more info about it on Wikipedia: https://en.wikipedia.org/wiki/Battleship_(game).
 
-In this version, to guess the battleship location, the player first enters the row (number 1-8) of the ship on the game board.
+In this version, to guess the battleship location, the player first enters the row (number 1-8) of the ship on the game board and hits Enter. Then the player enters the column (Letters A-H) of the ship on the game board to guess the battleship location and hits Enter. The player wins when all of the computer´s battleships are sunk. There are 10 turns in this game.
 
-Then the player enters the column (Letters A-H) of the ship on the game board to guess the battleship location.
+The Gameboard:
 
-Misses are indicated by the minus (-) sign.
+![Gameboard](/documentation/gameboard.png)
 
-Hits are indicated by X.
+Misses are indicated by the minus (-) sign:
 
-The player wins when all of the computer´s battleships are sunk.
+![You missed](/documentation/miss.png)
 
-There are 10 turns in this game.
+Hits are indicated by X:
+
+![You hit](/documentation/hit.png)
+
+There are 10 turns in this game:
+
+![You ran out of turns](/documentation/ran_out_of_turns.png)
+
+Invalid inputs: Letters when numbers are expected and vise versa:
+
+![Invalid row input](/documentation/row_error.png)
+
+![Invalid column input](/documentation/column_error.png)
 
 ## Features
 
